@@ -4,14 +4,6 @@
   "policyType": "Custom",
   "mode": "Indexed",
   "description": "Deploys the diagnostic settings for WVD Workspace to stream to a Log Analytics workspace when any Workspace which is missing this diagnostic settings is created or updated. The policy wil  set the diagnostic with all and categorys enabled.",
-  "metadata": {
-   "version": "1.0.0",
-   "category": "Monitoring",
-   "createdBy": "e0386d22-ebb7-447a-a00f-f3062faed834",
-   "createdOn": "2021-03-08T18:37:24.2364903Z",
-   "updatedBy": null,
-   "updatedOn": null
-  },
   "parameters": {
    "logAnalytics": {
     "type": "String",
